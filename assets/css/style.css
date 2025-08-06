@@ -1342,3 +1342,9 @@ work Section style
     color: #ddd;
     padding: 5px;
 }
+
+.fix-numbers {
+  font-variant-numeric: lining-nums;
+}
+
+
