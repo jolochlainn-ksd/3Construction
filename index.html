@@ -258,33 +258,5 @@
         <!-- end copyright -->
 
 
-
-
-
-
-		
-		 <!-- jQuery must be loaded first -->
-		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
- 
-  <!-- your background slideshow script -->
-  <script>
-			   $(document).ready(function() {
-			    var images = [
-			        '../images/home-bg.jpg',
-			        '../images/home-bg.jpg',
-			        '../images/home-bg.jpg'
-			    ];
-			    var index = 0;
-			
-			    setInterval(function() {
-			        index = (index + 1) % images.length;
-			        $('#home').css('background-image', 'url(' + images[index] + ')');
-			    }, 2000); // change every 2 seconds
-			});
-  </script>
-
 	</body>
 </html>
