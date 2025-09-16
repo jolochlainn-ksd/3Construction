@@ -219,14 +219,19 @@ header .social-icon li a
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: slideBG 24s infinite;
+    animation: slideBG 45s infinite;
 }
 
 @keyframes slideBG {
-    0%   { background-image: url('../images/portfolio-img1.jpg'); }
-    25%  { background-image: url('../images/home-bg.jpg'); }
-    75%  { background-image: url('../images/portfolio-img1.jpg'); }
-    100% { background-image: url('../images/home-bg.jpg'); }
+    0%   { background-image: url('../images/3Cimg2.jpg'); }
+    10%  { background-image: url('../images/3Cimg3.jpg'); }
+    20%  { background-image: url('../images/3cimg4.jpg'); }
+    30% { background-image: url('../images/3cimg5.jpg'); }
+	40% { background-image: url('../images/commercial1.jpg'); }
+	50% { background-image: url('../images/commercial2.png'); }
+	60% { background-image: url('../images/commercial3.png'); }
+	70% { background-image: url('../images/commercial4.png'); }
+	80% { background-image: url('../images/3cimg1.jpg'); }
 }
 
 
