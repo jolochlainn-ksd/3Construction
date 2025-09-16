@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #00563f;  /* Castleton Green */
 }
 .templatemo-nav {
 	border-radius: 0;	
