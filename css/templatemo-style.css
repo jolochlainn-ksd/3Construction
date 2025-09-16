@@ -203,13 +203,21 @@ header .social-icon li a
 
 /* start home */
 #home
-	{
+	/* {
 		background: url('../images/home-bg.jpg') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
 		min-height: 650px;
-	}
+	} */
+
+		#home {
+    position: relative;       /* needed for overlay */
+    height: 100vh;            /* full viewport height */
+    padding-top: 160px;       /* optional, adjust for text */
+    padding-bottom: 100px;    /* optional */
+}
+
 #home h1
 	{
 		font-weight: 300;
@@ -594,3 +602,44 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-bg {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+#home h1 {
+    font-weight: 300;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+#home h1 span {
+    color: #28a7e9;
+    font-weight: bold;
+}
+
+.element {
+    height: 60px;
+    font-size: 16px;
+}
