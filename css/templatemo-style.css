@@ -525,7 +525,7 @@ header .social-icon li a
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: #00563f;  /* Castleton Green */
 		border-color: transparent;
 	}
 /* end social icon */
@@ -544,7 +544,7 @@ header .social-icon li a
 		}
 	#portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: #00563f;  /* Castleton Green */
 		top: 0;
 		left: 0;
 		right: 0;
