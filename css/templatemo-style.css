@@ -202,14 +202,33 @@ header .social-icon li a
 /* end navigation */
 
 /* start home */
-#home
+/* #home
 	{
 		background: url('../images/home-bg.jpg') no-repeat;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
 		min-height: 650px;
-	}
+	} */
+
+	#home {
+    position: relative;
+    min-height: 650px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideBG 9s infinite;
+}
+
+@keyframes slideBG {
+    0%   { background-image: url('../images/home-bg.jpg'); }
+    33%  { background-image: url('../images/home-bg.jpg'); }
+    66%  { background-image: url('../images/home-bg.jpg'); }
+    100% { background-image: url('../images/home-bg.jpg'); }
+}
+
 
 #home h1
 	{
