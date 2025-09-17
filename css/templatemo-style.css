@@ -271,6 +271,77 @@ header .social-icon li a
 }
 /* end home */
 
+/* start customjoe */
+/* #customjoe
+	{
+		background: url('../images/home-bg.jpg') no-repeat;
+		background-size: cover;
+		padding-top: 160px;
+		padding-bottom: 100px;
+		min-height: 650px;
+	} */
+
+	#customjoe {
+    position: relative;
+    min-height: 650px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideBG 45s infinite;
+}
+
+@keyframes slideBG {
+    0%   { background-image: url('../images/3Cimg2.jpg'); }
+    10%  { background-image: url('../images/3Cimg3.jpg'); }
+    20%  { background-image: url('../images/3cimg4.jpg'); }
+    30% { background-image: url('../images/3cimg5.jpg'); }
+	40% { background-image: url('../images/commercial1.jpg'); }
+	50% { background-image: url('../images/commercial2.png'); }
+	60% { background-image: url('../images/commercial3.png'); }
+	75% { background-image: url('../images/commercial4.png'); }
+	100% { background-image: url('../images/3cimg1.jpg'); }
+}
+
+
+#customjoe h1
+	{
+		font-weight: 300;
+		font-size: 70px;
+		padding-bottom: 10px;
+	}
+#customjoe h1 span
+	{
+		color: #00563f; /* Castleton Green for full heading */
+		font-weight: bold;
+	}
+#customjoe .btn
+	{
+		background: transparent;
+		border-radius: 2px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 20px;
+		width: 180px;
+		height: 60px;
+		padding-top: 18px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+#customjoe .btn:hover
+	{
+		background: #28a7e9;
+		border-color: transparent;
+	}
+.element {
+	height: 60px;
+	font-size: 16px;
+}
+/* end customjoe */
+
+
 /* start about */
 #about .media-heading-wrapper
 	{
@@ -574,6 +645,17 @@ header .social-icon li a
 			font-size: 52px;
 		}
 
+	#customjoe
+		{
+			min-height: 300px;
+			padding-top: 80px;
+			padding-bottom: 60px;
+		}
+	#customjoe h1
+		{
+			font-size: 52px;
+		}
+
 	.templatemo-nav {
 		position: fixed;
     	top: 0;
@@ -613,6 +695,17 @@ header .social-icon li a
 			padding-bottom: 40px;
 		}
 	#home h1
+		{
+			font-size: 32px;
+		}
+
+	#customjoe
+		{
+			min-height: 200px;
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+	#customjoe h1
 		{
 			font-size: 32px;
 		}
