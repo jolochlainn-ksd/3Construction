@@ -413,6 +413,52 @@ header .social-icon li a
 }
 /* end propmain */
 
+/* start commerc */
+#commerc
+	{
+		background: url('../images/3Cimg2.jpg') no-repeat;
+		background-size: cover;
+		padding-top: 160px;
+		padding-bottom: 100px;
+		min-height: 650px;
+	} 
+
+#commerc h1
+	{
+		font-weight: 300;
+		font-size: 70px;
+		padding-bottom: 10px;
+	}
+#commerc h1 span
+	{
+		color: #00563f; /* Castleton Green for full heading */
+		font-weight: bold;
+	}
+#commerc .btn
+	{
+		background: transparent;
+		border-radius: 2px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 20px;
+		width: 180px;
+		height: 60px;
+		padding-top: 18px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+#commerc .btn:hover
+	{
+		background: #28a7e9;
+		border-color: transparent;
+	}
+.element {
+	height: 60px;
+	font-size: 16px;
+}
+/* end commerc */
+
 
 /* start about */
 #about .media-heading-wrapper
@@ -750,6 +796,17 @@ header .social-icon li a
 			font-size: 52px;
 		}
 
+	#commerc
+		{
+			min-height: 300px;
+			padding-top: 80px;
+			padding-bottom: 60px;
+		}
+	#commerc h1
+		{
+			font-size: 52px;
+		}
+
 	.templatemo-nav {
 		position: fixed;
     	top: 0;
@@ -822,6 +879,16 @@ header .social-icon li a
 			padding-bottom: 40px;
 		}
 	#propmain h1
+		{
+			font-size: 32px;
+		}
+	#commerc
+		{
+			min-height: 200px;
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+	#commerc h1
 		{
 			font-size: 32px;
 		}
