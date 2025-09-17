@@ -230,8 +230,8 @@ header .social-icon li a
 	40% { background-image: url('../images/commercial1.jpg'); }
 	50% { background-image: url('../images/commercial2.png'); }
 	60% { background-image: url('../images/commercial3.png'); }
-	70% { background-image: url('../images/commercial4.png'); }
-	80% { background-image: url('../images/3cimg1.jpg'); }
+	75% { background-image: url('../images/commercial4.png'); }
+	100% { background-image: url('../images/3cimg1.jpg'); }
 }
 
 
