@@ -35,9 +35,10 @@ $(function(){
     
     /* Hide mobile menu after clicking on a link
     -----------------------------------------------*/
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
+   	$('.navbar-collapse a:not(.dropdown-toggle)').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+	});
+
     /* end navigation top js */
 
     $('body').bind('touchstart', function() {});
